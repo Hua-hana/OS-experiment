@@ -1,0 +1,6 @@
+/* buffer.h */
+typedef int buffer_item;
+#define BUFFER_SIZE 10
+int insert_item(buffer_item item);
+int remove_item(buffer_item *item);
+void buffer_init();
